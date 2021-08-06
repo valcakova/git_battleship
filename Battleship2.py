@@ -34,5 +34,7 @@ for n in range(5):
     # Show the board, one row at a time
     for row in board:
         print(row)
-    
+     # Check that there are no repeats
+    if board[row_number][column_number] == 'X':
+        print("That spot already has a battleship in it!")
    
